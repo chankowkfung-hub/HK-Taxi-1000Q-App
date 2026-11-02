@@ -3,15 +3,17 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 android {
-    namespace 'com.momomart.dse5star'
+    android {
+    namespace 'com.momomart.taxi.hk'
     compileSdk 36
     defaultConfig {
-        applicationId "com.momomart.dse5star"
+        applicationId "com.momomart.taxi.hk"
         minSdk 24
         targetSdk 36
-        versionCode 17
-        versionName "17.0-Hell-BlackGold-AdFull"
+        versionCode 1
+        versionName "1.0-Hell-BlackGold-AdFull"
         multiDexEnabled true
+    }
     }
     signingConfigs {
         release {
