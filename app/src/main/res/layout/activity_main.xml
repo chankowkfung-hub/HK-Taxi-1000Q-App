@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/hell_black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="DSE 5** HELL EDITION 黑金地獄"
+        android:textColor="@color/gold_primary" android:textSize="22sp" android:textStyle="bold"
+        android:gravity="center" android:padding="16dp" android:background="@drawable/bg_gold_border"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="核心已鎖定: 中文 英文 數學 | 再揀4科選修 ECON📊 BAFS💼 PHY⚛ CHEM🧪 BIO🧬 M2📈 ICT💾 GEOG🌐 HIST📜"
+        android:textColor="#FFFFFF" android:layout_marginTop="12dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/electiveGrid"
+        android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="12dp"/>
+    <LinearLayout android:id="@+id/adContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+</LinearLayout>

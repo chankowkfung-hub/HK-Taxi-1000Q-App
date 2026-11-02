@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.DSE5Star.BlackGold" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gold_primary</item>
+        <item name="android:statusBarColor">@color/hell_black</item>
+        <item name="android:windowBackground">@color/hell_black</item>
+    </style>
+</resources>
