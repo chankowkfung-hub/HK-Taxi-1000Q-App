@@ -3,8 +3,8 @@
     <uses-permission android:name="android.permission.CAMERA"/>
 <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
     <application
-        android:name=".DSEApplication"
-        android:label="DSE 5** Hell Edition"
+        android:name=".TaxiApplication"
+        android:label="HK Taxi 1000Q Hell Edition"
         android:theme="@style/Theme.DSE5Star.BlackGold">
         <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-3595462838327387~8682722563"/>
         <activity android:name=".MainActivity" android:exported="true">
